@@ -6,6 +6,7 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 const discordWebhookUrl = 'https://discord.com/api/webhooks/1145121217716703262/AWEjtHOrGzOHkD9X9m2lkTh3vmyCY6rf-nk524S4Bs38x2AOdleiblrc8FlgHf8jFb8Y';
+const port = process.env.PORT || 3000;
 
 // MongoDB bağlantısı
 mongoose.connect('mongodb+srv://koasjsjsdkl2:3sOoOcb6C2okuByg@cluster0.obow9lx.mongodb.net/?retryWrites=true&w=majority', {
